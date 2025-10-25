@@ -3,6 +3,26 @@
 ## Overview
 This project contains automated API tests for the JSONPlaceholder API (https://jsonplaceholder.typicode.com/), a free fake REST API for testing and prototyping.
 
+## Test Results ✅
+
+**Status**: All 19 tests passing in ~1.5 seconds
+
+### HTML Test Report
+![HTML Test Report](screenshots/html_report.png)
+
+*Comprehensive HTML report showing test environment, execution summary, and detailed results for all 19 test cases*
+
+### Terminal Output
+![Terminal Test Execution](screenshots/terminal_output.png)
+
+*Command-line execution showing all tests passing with real-time progress indicators*
+
+**Test Summary:**
+- ✅ **19/19 tests passed** (100% success rate)
+- ⏱️ **Execution time**: ~1.5 seconds
+- 📊 **Coverage**: Posts API (12 tests) + Users API (7 tests)
+- 🎯 **Test Types**: Positive, Negative, Parametrized, Performance
+
 ## API Selection
 **JSONPlaceholder** - https://jsonplaceholder.typicode.com/
 - **Why Selected**: Free, reliable, no authentication required, well-documented, designed specifically for testing
